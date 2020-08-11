@@ -1,1 +1,1 @@
-# MyApp
+# FitnessShareApp
