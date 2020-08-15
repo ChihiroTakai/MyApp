@@ -1,11 +1,11 @@
-const userRoutes = require("../routes/routes");
+const userRoutes = require("../routes/user");
 
 var mongoose = require("mongoose"),
     User = mongoose.model("Users");
 
 // 全てのユーザーを取得する
 exports.all_users = function(req, res) {
-    User.find({}, function(req, res) {
+    User.find({}, function(err, user) {
         if (err) res.send(err);
         res.json(user);
     });

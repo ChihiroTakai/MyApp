@@ -1,4 +1,4 @@
-const taskRoutes = require("../routes/routes");
+const taskRoutes = require("../routes/task");
 
 var mongoose = require("mongoose"),
     Task = mongoose.model("Tasks");

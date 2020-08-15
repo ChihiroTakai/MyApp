@@ -4,9 +4,11 @@ objectId = Schema.ObjectId;
 
 // Schemaの設定
 var UserSchema = new Schema ({
-    user : {
-        _id: objectId,
-        name: String
+    userId : {
+        type: String
+    },
+    name : {
+        type: String
     }
 });
 
