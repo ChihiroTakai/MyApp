@@ -1,0 +1,18 @@
+.logo {
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+    color: lightcoral;
+    width: 1000px;
+    height: 100px;
+}
+.login-btn {
+    font-size: 20px;
+}
+.header-body {
+    text-align: center;
+}
+.header-bodyContainer {
+    display: inline-block;
+    padding: 0px 100px;
+}
